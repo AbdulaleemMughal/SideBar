@@ -10,17 +10,17 @@ import { AnimatePresence, motion } from "framer-motion";
 const routes = [
   {
     path: "/",
-    name: "Dashboard",
+    name: "Dot Game",
     icon: <FaHome />,
   },
   {
     path: "/user",
-    name: "Users",
+    name: "Password Generator",
     icon: <FaUser />,
   },
   {
     path: "/message",
-    name: "Messages",
+    name: "Currency Changer",
     icon: <MdMessage />,
   },
   {

@@ -41,6 +41,7 @@ a {
     padding: 5px 10px;
     border-radius: 5px;
     background-color: rgb(238, 238, 238);
+    color: black;
 }
 
 .bars {
@@ -72,4 +73,46 @@ a {
 
 .main-container{ 
     display: flex;
+}
+
+/* Board Game */
+
+.board {
+    height: 100vh;
+    width: calc(100vw - 200px);
+    border: 10px solid orange;
+    cursor: pointer;
+    position: relative;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+}
+
+.control {
+    display: flex;
+    margin: 10px;
+    gap: 4px;
+}
+
+.control button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.control button:active {
+    transform: scale(0.9);
+}
+
+.disable {
+    background-color: grey;
 }
